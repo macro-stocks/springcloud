@@ -1,0 +1,8 @@
+app:
+  kafka:
+    topics: DS_LastRefreshed,DS_ExchangeRate,DS_BidPrice,DS_AskPrice
+  allowedOrigins: http://localhost:3000
+management:
+  tracing:
+    sampling:
+      probability: 1
